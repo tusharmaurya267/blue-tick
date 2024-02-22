@@ -1,0 +1,131 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Add your preferred background styles here */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Header styling */
+header {
+  /* Add your preferred header styles here */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  /* Add your preferred logo styles here */
+}
+
+.logo img {
+  /* Add your preferred logo image styles here */
+}
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+li {
+  margin: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  /* Add your preferred link styles here */
+  transition: color 0.3s ease; /* Smooth transition on link hover */
+}
+
+a:hover {
+  /* Add your preferred link hover styles here */
+}
+
+/* Main content styling */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  animation: fadeIn 1s ease; /* Fade-in animation */
+}
+
+/* Blog card styling */
+.blog-card {
+  /* Add your preferred blog card styles here */
+}
+
+.blog-card h3 {
+  /* Add your preferred heading styles here */
+}
+
+.blog-card p {
+  /* Add your preferred paragraph styles here */
+}
+
+.blog-card a {
+  /* Add your preferred link styles within the blog card here */
+}
+
+.blog-card a:hover {
+  /* Add your preferred link hover styles within the blog card here */
+}
+
+/* Footer styling */
+footer {
+  padding: 20px;
+  /* Add your preferred footer styles here */
+  text-align: center;
+  animation: fadeIn 1s ease; /* Fade-in animation */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links a {
+  margin: 0 10px;
+  /* Add your preferred link styles within the footer links here */
+}
+
+.footer-links img {
+  /* Add your preferred image styles within the footer links here */
+}
+
+.footer p {
+  margin: 10px 0;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons a {
+  margin: 0 10px;
+}
+
+.footer-icons img {
+  /* Add your preferred image styles within the footer icons here */
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

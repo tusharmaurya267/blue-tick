@@ -1,0 +1,32 @@
+/* Footer.css */
+
+.footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer-links a {
+    padding-left: 50px 0;
+    padding-right: 50px 0;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-links img {
+    height: 25px; /* Adjust the height as needed */
+  }
+  
+  .footer p {
+    margin: 10px 0;
+  }
+  
+  .footer-icons a {
+    margin: 0 10px;
+  }
+  
+  .footer-icons img {
+    height: 20px; /* Adjust the height as needed */
+  }
