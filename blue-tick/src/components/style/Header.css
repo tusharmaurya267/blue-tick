@@ -1,3 +1,5 @@
+/* Header.css */
+
 header {
   position: fixed;
   top: 0;
@@ -33,7 +35,8 @@ ul {
 }
 
 li {
-  margin: 0 10px; /* Adjusted margin for better spacing */
+  margin: 0 30px; /* Adjusted margin for better spacing */
+  font-size: 20px;
 }
 
 a {
@@ -44,4 +47,18 @@ a {
 
 a:hover {
   color: #007bff;
+}
+
+/* Media query for responsiveness below 900px */
+@media (max-width: 900px) {
+  ul {
+    flex-direction: column; /* Stack list items vertically */
+    align-items: center; /* Center items in the column */
+    margin-top: 10px; /* Add some spacing between items */
+  }
+
+  li {
+    margin: 5px; /* Adjusted margin for better spacing in the column */
+    font-size: 18px; /* Adjust font size for better readability */
+  }
 }

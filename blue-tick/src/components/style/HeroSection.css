@@ -3,10 +3,11 @@
 .hero-section {
   position: relative;
   z-index: 1; /* Ensure hero section is behind the header */
-  padding: 50px; /* Increased padding for the hero section */
+  padding: 80px; /* Increased padding for the hero section */
   background-color: #f8f8f8;
   text-align: center;
   animation: fadeInDown 1s ease;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
 }
 
 .hero-section h1 {
@@ -28,7 +29,7 @@
 .hero-section a {
   color: #007bff; /* Adjusted link color */
   text-decoration: none;
-  transition: color 0.3s ease; /* Smooth transition on link hover */
+  transition: color 3s ease; /* Smooth transition on link hover */
 }
 
 .hero-section a:hover {
@@ -38,7 +39,6 @@
 #icons{
   box-shadow: none;
   display: flex;
-  /* border-radius: 50; */
   margin: 0 0 0 0;
   height: 20px;
   width: 20px;
@@ -55,5 +55,13 @@
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Media query for responsiveness below 900px */
+@media (max-width: 900px) {
+  .hero-section {
+    padding: 30px; /* Adjusted padding for better responsiveness */
+    margin-top: 150px;
   }
 }

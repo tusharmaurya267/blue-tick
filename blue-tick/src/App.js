@@ -15,6 +15,7 @@ function App() {
       <HeroSection />
       <WhatWeOffer />
       {/* Blog Posts */}
+      <h2>BLOGS</h2>
       <BlogPost
         title="Speaking SQL: Turning Natural Language into Database Dialogues"
         content="Bridging Language and Data in the Enterprise Sphere: In the realm of enterprise data management, SQL databases have long stood as the backbone, housing vast quantities of invaluable information. As enterprises increasingly lean on business intelligence (BI) tools to extract insights from these data repositories, the quest for more intuitive and accessible querying methods gains momentum. The emerging solution? Leveraging Large Language Models (LLMs) to interact with SQL databases using natural language."

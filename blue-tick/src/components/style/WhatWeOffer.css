@@ -1,12 +1,41 @@
+/* WhatWeOffer.css */
+
 .what-we-offer {
-    padding: 40px;
-    background-color: #fff;
+  display: flex;
+  padding: 40px;
+  background-color: #fff;
+  transition: background-color 0.3s ease; /* Transition for background color change */
+  animation: fadeIn 1s ease; /* Fade-in animation */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.what-we-offer article {
+  flex: 1;
+  padding: 20px;
+  margin: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid #ada7a7;
+  transition: border-color 0.3s ease; /* Transition for border color change */
+}
+
+.what-we-offer h2 {
+  flex: 1;
+  color: #333;
+  transition: color 0.3s ease; /* Transition for text color change */
+}
+
+.what-we-offer p { 
+  flex: 1;
+  color: #666;
+  transition: color 0.3s ease; /* Transition for text color change */
+}
+
+/* Animation for the fade-in effect */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  
-  .what-we-offer h2 {
-    color: #333;
+  to {
+    opacity: 1;
   }
-  
-  .what-we-offer p {
-    color: #666;
-  }
+}
